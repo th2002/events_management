@@ -1,7 +1,6 @@
 import React from 'react';
 import Logo from './Logo';
 import { Button } from '@nextui-org/button';
-import { ThemeSwitch } from './theme-switch';
 
 const Header = () => {
   return (
@@ -9,7 +8,6 @@ const Header = () => {
       <Logo />
 
       <div className="flex items-center gap-4">
-        <ThemeSwitch />
         <Button color="primary" variant="flat" size="sm">
           Login
         </Button>
