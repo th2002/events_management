@@ -32,7 +32,7 @@ export default function RootLayout({
       <head />
       <body
         className={clsx(
-          'min-h-screen bg-background font-sans antialiased',
+          'min-h-screen w-screen overflow-x-hidden bg-background font-sans antialiased',
           fontSans.variable
         )}
       >
@@ -42,7 +42,9 @@ export default function RootLayout({
             defaultTheme: 'light'
           }}
         >
-          <div className="relative flex h-screen flex-col">{children}</div>
+          <div className="relative flex min-h-screen w-screen flex-col">
+            {children}
+          </div>
         </Providers>
       </body>
     </html>

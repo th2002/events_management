@@ -18,6 +18,8 @@ module.exports = {
         light: {
           colors: {
             background: "#FFFFFF",
+            thirdground: "#171A1FFF",
+            foreground: "#F8F9FAD6",
             primary: {
               DEFAULT: "#F26298",
             },
@@ -30,6 +32,7 @@ module.exports = {
         dark: {
           colors: {
             background: "#000000",
+            foreground: "#FFFFFF",
             primary: {
               DEFAULT: "#F26298",
             },
