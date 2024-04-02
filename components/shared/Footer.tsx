@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from './Logo';
+import Logo from '../Logo';
 import { CiMail } from 'react-icons/ci';
 
 const Footer = () => {
