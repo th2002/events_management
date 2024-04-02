@@ -4,6 +4,8 @@ import { siteConfig } from '@/config/site';
 import { fontSans } from '@/config/fonts';
 import { Providers } from './providers';
 import clsx from 'clsx';
+import { Suspense } from 'react';
+import Loader from '@/components/common/Loader';
 
 export const metadata: Metadata = {
   title: {
@@ -32,7 +34,7 @@ export default function RootLayout({
       <head />
       <body
         className={clsx(
-          'min-h-screen w-screen overflow-x-hidden bg-background font-sans antialiased',
+          'font-sans min-h-screen w-screen overflow-x-hidden bg-background antialiased',
           fontSans.variable
         )}
       >
@@ -43,7 +45,9 @@ export default function RootLayout({
           }}
         >
           <div className="relative flex min-h-screen w-screen flex-col">
-            {children}
+            <div className="dark:bg-boxdark-2 dark:text-bodydark">
+              <Suspense fallback={<Loader />}>{children}</Suspense>
+            </div>
           </div>
         </Providers>
       </body>
