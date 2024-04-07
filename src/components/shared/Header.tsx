@@ -4,7 +4,7 @@ import { Button } from '@nextui-org/button';
 import Link from 'next/link';
 import { SignedIn, SignedOut, UserButton, currentUser } from '@clerk/nextjs';
 
-const Header = async () => {
+async function Header() {
   const user = await currentUser();
 
   return (
@@ -32,6 +32,6 @@ const Header = async () => {
       </div>
     </header>
   );
-};
+}
 
 export default Header;

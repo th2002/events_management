@@ -52,7 +52,7 @@
     "swiper": "^11.0.7",
     "tailwind-variants": "^0.1.18",
     "tailwindcss": "3.3.5",
-    "typescript": "5.0.4",
+    "typescript": "^5.4.4",
     "uploadthing": "^6.7.0",
     "zod": "^3.22.4"
   },
