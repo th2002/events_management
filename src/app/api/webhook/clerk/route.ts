@@ -1,5 +1,3 @@
-// https://clerk.com/docs/integrations/webhooks/sync-data#sync-clerk-data-to-your-backend-with-webhooks
-
 import { Webhook } from 'svix';
 import { headers } from 'next/headers';
 import { WebhookEvent } from '@clerk/nextjs/server';
