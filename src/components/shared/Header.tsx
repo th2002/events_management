@@ -25,7 +25,7 @@ const Header = async () => {
 
         <SignedIn>
           <p className="text-content_secondary">
-            😃 <span className="font-semibold">{user?.username}</span>
+            Welcome <span className="font-semibold">{user?.username}</span>
           </p>
           <UserButton afterSignOutUrl="/" />
         </SignedIn>
@@ -35,4 +35,3 @@ const Header = async () => {
 };
 
 export default Header;
-

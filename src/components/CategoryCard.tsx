@@ -19,4 +19,3 @@ const CategoryCard = ({ category }: CategoryCardProps) => {
 };
 
 export default CategoryCard;
-

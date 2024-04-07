@@ -168,4 +168,3 @@ export const events = [
     location: 'New York, NY'
   }
 ];
-

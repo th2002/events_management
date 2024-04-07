@@ -26,4 +26,3 @@ const NewEvents = () => {
 };
 
 export default NewEvents;
-

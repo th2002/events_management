@@ -64,4 +64,3 @@ const EventsList = () => {
 };
 
 export default EventsList;
-

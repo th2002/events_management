@@ -21,4 +21,3 @@ const MoreEvents = () => {
 };
 
 export default MoreEvents;
-

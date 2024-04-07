@@ -5,7 +5,7 @@ import { CiLocationOn } from 'react-icons/ci';
 
 const BannerDefault = () => {
   return (
-    <div className="bg-banner-hightlight relative flex h-[400px] w-full items-center justify-center bg-cover bg-center bg-no-repeat md:h-[470px]">
+    <div className="relative flex h-[400px] w-full items-center justify-center bg-banner-hightlight bg-cover bg-center bg-no-repeat md:h-[470px]">
       {/* background overlay */}
       <div className="absolute inset-0 z-20 bg-pink-500 bg-opacity-30"></div>
 
@@ -39,4 +39,3 @@ const BannerDefault = () => {
 };
 
 export default BannerDefault;
-
