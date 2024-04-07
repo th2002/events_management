@@ -4,6 +4,22 @@ import { IoIosColorPalette } from 'react-icons/io';
 import { MdOutlineBusinessCenter } from 'react-icons/md';
 import { IoCameraOutline } from 'react-icons/io5';
 
+import Image_ev_2 from 'public/images/Image_ev_2.png';
+import Image_ev_1 from 'public/images/Image_ev_1.png';
+import Image_ev_3 from 'public/images/Image_ev_3.png';
+import Image_ev_4 from 'public/images/Image_ev_4.png';
+import Image_ev_5 from 'public/images/Image_ev_5.png';
+import Image_ev_6 from 'public/images/Image_ev_6.png';
+import Image_ev_7 from 'public/images/Image_ev_7.png';
+import Image_ev_8 from 'public/images/Image_ev_8.png';
+import Image_ev_9 from 'public/images/Image_ev_9.png';
+import Image_ev_10 from 'public/images/Image_ev_10.png';
+import Image_ev_11 from 'public/images/Image_ev_11.png';
+import Image_ev_12 from 'public/images/Image_ev_12.png';
+import Image_ev_13 from 'public/images/Image_ev_13.png';
+import Image_ev_14 from 'public/images/Image_ev_14.png';
+import Image_ev_15 from 'public/images/Image_ev_15.png';
+
 export const categories = [
   {
     id: 1,
@@ -35,7 +51,7 @@ export const categories = [
 export const events = [
   {
     title: 'Urban Marathon',
-    url: '/images/Image_ev_1.png',
+    url: Image_ev_1,
     like: false,
     price: 20,
     date: 'Monday, June 06 | 6:00 AM',
@@ -43,14 +59,14 @@ export const events = [
   },
   {
     title: 'Melody Mania',
-    url: '/images/Image_ev_2.png',
+    url: Image_ev_2,
     like: true,
     date: 'Monday, June 06 | 6:00 AM',
     location: 'New York, NY'
   },
   {
     title: `"Rockin" the Stage`,
-    url: '/images/Image_ev_3.png',
+    url: Image_ev_3,
     like: true,
     price: 120,
     date: 'Monday, June 06 | 6:00 AM',
@@ -58,7 +74,7 @@ export const events = [
   },
   {
     title: `Musical Fusion Festival`,
-    url: '/images/Image_ev_4.png',
+    url: Image_ev_4,
     like: false,
     price: 100,
     date: 'Monday, June 06 | 6:00 AM',
@@ -66,7 +82,7 @@ export const events = [
   },
   {
     title: `Creating a Thriving Business in the United States`,
-    url: '/images/Image_ev_5.png',
+    url: Image_ev_5,
     like: true,
     price: 50,
     date: 'Monday, June 06 | 6:00 AM',
@@ -74,7 +90,7 @@ export const events = [
   },
   {
     title: `Marathon`,
-    url: '/images/Image_ev_6.png',
+    url: Image_ev_6,
     like: false,
     price: 10,
     date: 'Monday, June 06 | 6:00 AM',
@@ -82,7 +98,7 @@ export const events = [
   },
   {
     title: `Rock Festival`,
-    url: '/images/Image_ev_7.png',
+    url: Image_ev_7,
     like: false,
     price: 100,
     date: 'Monday, June 06 | 6:00 AM',
@@ -90,14 +106,14 @@ export const events = [
   },
   {
     title: `Harmony of Melodies Concert`,
-    url: '/images/Image_ev_8.png',
+    url: Image_ev_8,
     like: false,
     date: 'Monday, June 06 | 6:00 AM',
     location: 'New York, NY'
   },
   {
     title: `Country Legends`,
-    url: '/images/Image_ev_9.png',
+    url: Image_ev_9,
     like: false,
     price: 80,
     date: 'Monday, June 06 | 6:00 AM',
@@ -105,7 +121,7 @@ export const events = [
   },
   {
     title: `Classical Serenade`,
-    url: '/images/Image_ev_10.png',
+    url: Image_ev_10,
     like: false,
     price: 60,
     date: 'Monday, June 06 | 6:00 AM',
@@ -113,7 +129,7 @@ export const events = [
   },
   {
     title: `Electric Sumphony`,
-    url: '/images/Image_ev_11.png',
+    url: Image_ev_11,
     like: false,
     price: 100,
     date: 'Monday, June 06 | 6:00 AM',
@@ -121,7 +137,7 @@ export const events = [
   },
   {
     title: `Musical Fusion Festival`,
-    url: '/images/Image_ev_12.png',
+    url: Image_ev_12,
     like: false,
     price: 80,
     date: 'Monday, June 06 | 6:00 AM',
@@ -129,7 +145,7 @@ export const events = [
   },
   {
     title: `Metropolis Marathon`,
-    url: '/images/Image_ev_13.png',
+    url: Image_ev_13,
     like: false,
     price: 10,
     date: 'Monday, June 06 | 6:00 AM',
@@ -137,7 +153,7 @@ export const events = [
   },
   {
     title: `Fuel Your Passion for Rock Music `,
-    url: '/images/Image_ev_14.png',
+    url: Image_ev_14,
     like: false,
     price: 100,
     date: 'Monday, June 06 | 6:00 AM',
@@ -145,7 +161,7 @@ export const events = [
   },
   {
     title: `Brushstrokes & Beyond: An Oil Painting Odyssey `,
-    url: '/images/Image_ev_15.png',
+    url: Image_ev_15,
     like: false,
     price: 8,
     date: 'Monday, June 06 | 6:00 AM',

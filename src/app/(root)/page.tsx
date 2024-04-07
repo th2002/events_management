@@ -1,5 +1,3 @@
-'use client';
-
 import BannerDefault from '@/components/BannerDefault';
 import CategoriesList from '@/components/CategoriesList';
 import HightLightThisWeek from '@/components/HightLightThisWeek';

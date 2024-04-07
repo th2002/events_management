@@ -8,7 +8,7 @@ interface EventCardProps {
   styles: string;
   imgWidth: number;
   imgHeight: number;
-  img: string;
+  img: any;
   title: string;
   price?: number;
   like: boolean;

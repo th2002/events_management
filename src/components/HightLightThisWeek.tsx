@@ -1,5 +1,6 @@
 import { events } from '@/constants';
 import { Button } from '@nextui-org/button';
+import Image from 'next/image';
 import React from 'react';
 import { CiCalendar, CiLocationOn } from 'react-icons/ci';
 
@@ -19,7 +20,7 @@ const HightLightThisWeek = () => {
       </div>
 
       <div className="relative w-full">
-        <img
+        <Image
           className="h-[418px] w-full object-cover object-center"
           src={eventHightLight?.url}
           alt={eventHightLight?.title}
