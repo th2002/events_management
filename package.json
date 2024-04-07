@@ -26,15 +26,9 @@
     "@react-aria/ssr": "^3.8.0",
     "@react-aria/visually-hidden": "^3.8.6",
     "@types/node": "20.5.7",
-<<<<<<< HEAD
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
     "@uploadthing/react": "^6.4.1",
-=======
-    "@types/react": "^18.2.74",
-    "@types/react-dom": "^18.2.23",
-    "apexcharts": "^3.45.2",
->>>>>>> master
     "autoprefixer": "10.4.16",
     "clsx": "^2.0.0",
     "dotenv": "^16.4.5",
@@ -43,12 +37,8 @@
     "flatpickr": "^4.6.13",
     "framer-motion": "^10.16.4",
     "intl-messageformat": "^10.5.0",
-<<<<<<< HEAD
     "mongodb": "^6.5.0",
     "mongoose": "^8.3.0",
-=======
-    "jsvectormap": "^1.5.3",
->>>>>>> master
     "next": "14.0.2",
     "next-themes": "^0.2.1",
     "postcss": "8.4.31",
