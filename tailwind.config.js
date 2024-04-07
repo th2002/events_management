@@ -1,15 +1,24 @@
 import { nextui } from "@nextui-org/theme";
+<<<<<<< HEAD
+import { withUt } from "uploadthing/tw";
+=======
 import defaultTheme from "tailwindcss/defaultTheme";
+>>>>>>> master
 
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+module.exports = withUt({
   content: [
-    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
     "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+<<<<<<< HEAD
+    extend: {
+      backgroundImage: {
+        "banner-hightlight": 'url("/backgrounds/banner_pink.png")',
+=======
     fontFamily: {
       satoshi: ["Satoshi", "sans-serif"],
     },
@@ -328,6 +337,7 @@ module.exports = {
         line1: "line 10s infinite linear",
         line2: "line-revert 8s infinite linear",
         line3: "line 7s infinite linear",
+>>>>>>> master
       },
     },
   },
@@ -363,4 +373,4 @@ module.exports = {
       },
     }),
   ],
-};
+});
