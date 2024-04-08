@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import LogoImage from 'public/logo.png';
+import LogoImage from '/public/logo.png';
 
 function Logo() {
   return (

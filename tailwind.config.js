@@ -19,29 +19,18 @@ module.exports = withUt({
   darkMode: "class",
   plugins: [
     nextui({
+      defaultTheme: "light",
+      defaultExtendTheme: "light",
       themes: {
         light: {
           colors: {
             background: "#FFFFFF",
             thirdground: "#171A1FFF",
             foreground: "#F8F9FAD6",
-            primary: {
-              DEFAULT: "#F26298",
-            },
+            primary: "#F26298",
             content_primary: "#171A1FFF",
             content_secondary: "#323842FF",
             content_thrid: "#6E7787FF",
-            focus: "#F26298",
-          },
-        },
-        dark: {
-          colors: {
-            background: "#000000",
-            foreground: "#FFFFFF",
-            primary: {
-              DEFAULT: "#F26298",
-            },
-            content_primary: "#FFFFFF",
             focus: "#F26298",
           },
         },

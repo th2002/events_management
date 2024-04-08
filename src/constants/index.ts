@@ -4,21 +4,21 @@ import { IoIosColorPalette } from 'react-icons/io';
 import { MdOutlineBusinessCenter } from 'react-icons/md';
 import { IoCameraOutline } from 'react-icons/io5';
 
-import Image_ev_2 from 'public/images/Image_ev_2.png';
-import Image_ev_1 from 'public/images/Image_ev_1.png';
-import Image_ev_3 from 'public/images/Image_ev_3.png';
-import Image_ev_4 from 'public/images/Image_ev_4.png';
-import Image_ev_5 from 'public/images/Image_ev_5.png';
-import Image_ev_6 from 'public/images/Image_ev_6.png';
-import Image_ev_7 from 'public/images/Image_ev_7.png';
-import Image_ev_8 from 'public/images/Image_ev_8.png';
-import Image_ev_9 from 'public/images/Image_ev_9.png';
-import Image_ev_10 from 'public/images/Image_ev_10.png';
-import Image_ev_11 from 'public/images/Image_ev_11.png';
-import Image_ev_12 from 'public/images/Image_ev_12.png';
-import Image_ev_13 from 'public/images/Image_ev_13.png';
-import Image_ev_14 from 'public/images/Image_ev_14.png';
-import Image_ev_15 from 'public/images/Image_ev_15.png';
+import Image_ev_2 from '/public/images/Image_ev_2.png';
+import Image_ev_1 from '/public/images/Image_ev_1.png';
+import Image_ev_3 from '/public/images/Image_ev_3.png';
+import Image_ev_4 from '/public/images/Image_ev_4.png';
+import Image_ev_5 from '/public/images/Image_ev_5.png';
+import Image_ev_6 from '/public/images/Image_ev_6.png';
+import Image_ev_7 from '/public/images/Image_ev_7.png';
+import Image_ev_8 from '/public/images/Image_ev_8.png';
+import Image_ev_9 from '/public/images/Image_ev_9.png';
+import Image_ev_10 from '/public/images/Image_ev_10.png';
+import Image_ev_11 from '/public/images/Image_ev_11.png';
+import Image_ev_12 from '/public/images/Image_ev_12.png';
+import Image_ev_13 from '/public/images/Image_ev_13.png';
+import Image_ev_14 from '/public/images/Image_ev_14.png';
+import Image_ev_15 from '/public/images/Image_ev_15.png';
 
 export const categories = [
   {
@@ -168,3 +168,15 @@ export const events = [
     location: 'New York, NY'
   }
 ];
+
+export const eventDefaultValues = {
+  title: '',
+  description: '',
+  location: '',
+  imageUrl: '',
+  startDatetime: new Date(),
+  endDatetime: new Date(),
+  price: '',
+  isFree: false,
+  url: ''
+};

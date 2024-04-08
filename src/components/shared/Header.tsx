@@ -3,6 +3,7 @@ import Logo from '../Logo';
 import { Button } from '@nextui-org/button';
 import Link from 'next/link';
 import { SignedIn, SignedOut, UserButton, currentUser } from '@clerk/nextjs';
+import DropDownMenu from '../DropDownMenu';
 
 async function Header() {
   const user = await currentUser();
@@ -25,9 +26,11 @@ async function Header() {
 
         <SignedIn>
           <p className="text-content_secondary">
-            Welcome <span className="font-semibold">{user?.username}</span>
+            😃 <span className="font-semibold">{user?.username}</span>
           </p>
           <UserButton afterSignOutUrl="/" />
+
+          <DropDownMenu />
         </SignedIn>
       </div>
     </header>

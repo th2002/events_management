@@ -45,7 +45,7 @@ export default function RootLayout({
               defaultTheme: 'light'
             }}
           >
-            <div className="relative flex min-h-screen w-screen flex-col">
+            <div className="relative flex min-h-screen w-screen flex-col light">
               {children}
             </div>
           </Providers>
