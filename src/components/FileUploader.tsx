@@ -7,11 +7,12 @@ import { Button } from '@nextui-org/button';
 import { FaCloudUploadAlt } from 'react-icons/fa';
 
 type FileUploaderProps = {
+  imageUrl: string;
   setFiles: Dispatch<SetStateAction<File[]>>;
 };
 
-const FileUploader = ({ setFiles }: FileUploaderProps) => {
-  const [img, setImg] = useState<string | null>(null);
+const FileUploader = ({ imageUrl, setFiles }: FileUploaderProps) => {
+  const [img, setImg] = useState<string | null>(imageUrl || null);
 
   const onDrop = useCallback((acceptedFiles: FileWithPath[]) => {
     setFiles(acceptedFiles);

@@ -31,8 +31,8 @@ const DropDownMenu = () => {
             </Link>
           </DropdownItem>
           <DropdownItem key="dashboard" color="default">
-            <Link href="/events/dashboard" className="text-content_secondary">
-              Dashboard
+            <Link href="/profile" className="text-content_secondary">
+              Profile
             </Link>
           </DropdownItem>
         </DropdownMenu>

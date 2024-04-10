@@ -1,4 +1,5 @@
 import { Document, Schema, model, models } from 'mongoose';
+import { optional } from 'zod';
 
 export interface IEvent extends Document {
   title: string;
@@ -17,15 +18,15 @@ export interface IEvent extends Document {
 
 const EventSchema = new Schema({
   title: { type: String, required: true },
-  description: { type: String },
-  location: { type: String },
+  description: { type: String, optional: true },
+  location: { type: String, optional: true },
   createAt: { type: Date, default: Date.now },
   imageUrl: { type: String, required: true },
   startDatetime: { type: Date, default: Date.now },
   endDatetime: { type: Date, default: Date.now },
-  price: { type: String },
+  price: { type: String, optional: true },
   isFree: { type: Boolean, default: false },
-  url: { type: String },
+  url: { type: String, optional: true },
   category: { type: Schema.Types.ObjectId, ref: 'Category' },
   organizer: { type: Schema.Types.ObjectId, ref: 'User' }
 });
